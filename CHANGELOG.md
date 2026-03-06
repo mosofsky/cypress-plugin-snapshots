@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0
 
 ## Releases
 
+### [1.4.8](https://github.com/mosofsky/cypress-plugin-snapshots/compare/v1.4.7...v1.4.8) - 2026-03-06
+- Replaced rand-token with Node.js crypto.randomBytes for Cypress 15 compatibility
+- Updated Cypress peer dependency from ^4.5.0 to >=4.5.0
+
 ### [1.4.7](https://github.com/mosofsky/cypress-plugin-snapshots/compare/v1.4.6...v1.4.7) - 2022-12-14
 - Added autofailNewSnapshots for toMatchSnapshot
 - Changed √√√ back to √
